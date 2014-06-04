@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/***** end of Meyer's reset code *****/
+
+/***** Donn Clark stylesheet.css for Donn Clark's small business landing page, Thinkful *****/
+
+body	{ 
+	width: 1000px;
+	margin: 0px auto;
+	background-color: #000000;
+	border: none;
+	margin-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em, strong, strike { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 100%; 
+	text-indent: 0;
+	text-decoration: none;
+	text-align: left;
+	color:  #180773;
+}
+
+p {
+	color: #FFFFFF;
+}
+	
+ol, ul { list-style: none; }
+
+h1, h2, h3, h4, h5, h6 { font-weight: bold; #000000; }
+
+h1 { font-size:24px; }
+h2 { font-size:20px; }
+h3 { font-size:16px; }
+h4 { font-size:14px; }
+h5 { font-size:14px; }
+h6 { font-size:14px; }
+
+span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#top_bar  {
+	width: 1000px;
+	height: 115px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	border: none;
+}
+
+#company_name {
+	width: 188px;
+	height: 115px;
+	background-color: #5FC0CE;
+	border: 1px #FFFFFF solid;
+	float: left;
+}
+
+#top_v_spacer {
+	width: 20px;
+	height: 116px;
+	background-color: #000000;
+	border: none;
+	float: left;
+}
+
+#top_fixed_pic {
+	width: 788px;
+	height: 115px;
+	background-color: #03899C;
+	border: 1px #FFFFFF solid;
+	float: right;
+}
+
+#h_spacer {
+	width: 998px;;
+	height: 20px;
+	background-color: #000000;
+	border: none;
+	float: left;
+}
+
+#left_aside {
+	width: 190px;
+	height: 415px;
+	margin: 0px auto;
+	background-color: #BBBBFF;
+	vertical-align: middle;
+	float: left;
+}
+
+.items {
+	width: 163px;
+	height: 78px;
+	display: table;
+	padding-left: 25px;
+	border: 1px #FFFFFF solid;
+}
+
+.items:hover {
+	color:#180773;
+	text-decoration: underline;
+}
+
+#info {
+	width: 163px;
+	height: 93px;
+	display: table;
+	padding-left: 25px;
+	border: 1px #FFFFFF solid;
+}
+
+#info:hover {
+	color:#180773;
+	text-decoration: underline;
+}
+
+#bot_v_spacer {
+	width: 20px;
+	height: 420px;
+	background-color: #000000;
+	border: none;
+	float: left;
+}
+
+#main_body {
+	width: 790px;
+	height: 415px;
+	margin: 0px auto;
+	background-color: #FFFFFF;
+	float: right;
+}
+
+#project_pic {
+	width: 788px;
+	height: 278px;
+	background-color: #BBBBFF;
+	border: 1px #FFFFFF solid;
+	float: right;
+}
+
+#about {
+	width: 778px;
+	height: 118px;
+	padding: 10px 5px 5px 5px;
+	background-color: #CCCCFF;
+	border: 1px #FFFFFF solid;
+	float: right;
+}
+
+#about h3 {
+	color: #000000;
+	line-height: 125%;
+	display: inline:
+}
+
+#name {
+	font-weight: bold;
+	font-style: italic;
+}
+
+footer {
+	width: 1000px;
+	height: 35px;
+	margin: 0px auto;
+}
+	
+#foot {
+	width: 998px;
+	height: 30px;
+	clear: both;
+	background-color: #000000;
+	padding-top: 5px;
+	vertical-align: middle;
+	line-height: 25px;
+	border: none;
+}
+
+#foot  p {
+	font-size: 80%;
+	text-align: center;
+	color: #FFFFFF;
+}
